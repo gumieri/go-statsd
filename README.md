@@ -15,14 +15,8 @@ err := client.Send(&statsd.Metric{
   Type:  statsd.Counter, // statsd.Gauge, statsd.Millisecond, statsd.Histogram or statsd.Set
   SampleRate: 0.33, // float64
   Tags: []statsd.Tag{
-    statsd.Tag{
-      Key:   "oneKey",
-      Value: "oneValue",
-    },
-    statsd.Tag{
-      Key:   "twoKey",
-      Value: "twoValue",
-    },
+    {Key: "oneKey", Value: "oneValue"},
+    {Key: "twoKey", Value: "twoValue"},
   },
 })
 ```
