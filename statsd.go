@@ -40,6 +40,10 @@ func (client *Client) Open() (err error) {
 
 // Close method to close udp connection
 func (client *Client) Close() {
+	if client == nil || client.conn == nil {
+		return
+	}
+
 	client.conn.Close()
 }
 

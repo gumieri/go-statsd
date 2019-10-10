@@ -34,7 +34,6 @@ client.TrySend(&statsd.Metric{
 ## Code Status
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/gumieri/go-statsd)](https://goreportcard.com/report/github.com/gumieri/go-statsd)
-[![Build Status](https://travis-ci.org/gumieri/go-statsd.svg?branch=master)](https://travis-ci.org/gumieri/go-statsd)
 
 ## License
 
