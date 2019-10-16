@@ -2,6 +2,14 @@
 
 A extremely simple Statsd client for Go.
 
+## Installation
+
+```bash
+go get -u github.com/gumieri/go-statsd
+```
+
+This project is a Go library. Intended to be used by another Go programs.
+
 ## Usage
 
 ```go
