@@ -42,6 +42,7 @@ client.TrySend(&statsd.Metric{
 ## Code Status
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/gumieri/go-statsd)](https://goreportcard.com/report/github.com/gumieri/go-statsd)
+[![GoDoc](https://godoc.org/github.com/gumieri/go-statsd?status.svg)](https://godoc.org/github.com/gumieri/go-statsd)
 
 ## License
 
